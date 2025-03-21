@@ -1,0 +1,17 @@
+root@comp3134-Winter2025:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:06:54.212462 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 2629171649:2629171757, ack 2684195733, win 501, options [nop,nop,TS val 4202617743 ecr 1746808479], length 108
+00:06:54.212562 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 108:264, ack 1, win 501, options [nop,nop,TS val 4202617743 ecr 1746808479], length 156
+00:06:54.212926 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 264:368, ack 1, win 501, options [nop,nop,TS val 4202617744 ecr 1746808479], length 104
+00:06:54.222499 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 0, win 2046, options [nop,nop,TS val 1746808503 ecr 4202617738], length 0
+00:06:54.229011 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 368, win 2042, options [nop,nop,TS val 1746808510 ecr 4202617744], length 0
+00:06:54.315347 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 368:628, ack 1, win 501, options [nop,nop,TS val 4202617846 ecr 1746808510], length 260
+00:06:54.315502 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 628:900, ack 1, win 501, options [nop,nop,TS val 4202617846 ecr 1746808510], length 272
+00:06:54.315740 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 900:1728, ack 1, win 501, options [nop,nop,TS val 4202617846 ecr 1746808510], length 828
+00:06:54.331766 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 1728, win 2026, options [nop,nop,TS val 1746808612 ecr 4202617846], length 0
+^C
+9 packets captured
+15 packets received by filter
+0 packets dropped by kernel
+root@comp3134-Winter2025:~# 

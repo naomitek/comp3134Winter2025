@@ -1,0 +1,13 @@
+root@comp3134-Winter2025:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+23:55:16.044321 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 2629066385:2629066429, ack 2684192461, win 501, options [nop,nop,TS val 4201919575 ecr 1746110299], length 44
+23:55:16.044370 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 44:96, ack 1, win 501, options [nop,nop,TS val 4201919575 ecr 1746110299], length 52
+23:55:16.044442 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 96:268, ack 1, win 501, options [nop,nop,TS val 4201919575 ecr 1746110299], length 172
+23:55:16.060760 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 268, win 2042, options [nop,nop,TS val 1746110327 ecr 4201919575], length 0
+23:55:16.302885 IP 14.103.140.39.32808 > comp3134-Winter2025.ssh: Flags [S], seq 4278444912, win 64240, options [mss 1460,sackOK,TS val 1602037118 ecr 0,nop,wscale 7], length 0
+23:55:16.302973 IP comp3134-Winter2025.ssh > 14.103.140.39.32808: Flags [S.], seq 3929914439, ack 4278444913, win 65160, options [mss 1460,sackOK,TS val 4196108450 ecr 1602037118,nop,wscale 7], length 0
+23:55:16.503212 IP 14.103.140.39.32808 > comp3134-Winter2025.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 1602037319 ecr 4196108450], length 0
+23:55:16.503213 IP 14.103.140.39.32808 > comp3134-Winter2025.ssh: Flags [P.], seq 1:23, ack 1, win 502, options [nop,nop,TS val 1602037319 ecr 4196108450], length 22: SSH: SSH-2.0-libssh_0.9.6
+23:55:16.503329 IP comp3134-Winter2025.ssh > 14.103.140.39.32808: Flags [.], ack 23, win 509, options [nop,nop,TS val 4196108650 ecr 1602037319], length 0
+23:55:16.519237 IP comp3134-Winter2025.ssh > 14.103.140.39.32808: Flags [P.], seq 1:43, ack 23, win 509, options [nop,nop,TS val 4196108666 ecr 1602037319], length 42: SSH: SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.11
+23:55:16.719111 IP 14.103.140.39.32808 > comp3134-Winter2025.ssh: Flags [.], ack 43, win 502, options [nop,nop,TS val 1602037535 ecr 4196108666], length 0

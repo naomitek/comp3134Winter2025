@@ -1,0 +1,12 @@
+root@comp3134-Winter2025:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+23:48:23.444599 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 2629030885:2629030993, ack 2684190641, win 501, options [nop,nop,TS val 4201506975 ecr 1745697682], length 108
+23:48:23.444791 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 4201506976 ecr 1745697682], length 36
+23:48:23.444848 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 144:196, ack 1, win 501, options [nop,nop,TS val 4201506976 ecr 1745697682], length 52
+23:48:23.444942 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 196:264, ack 1, win 501, options [nop,nop,TS val 4201506976 ecr 1745697682], length 68
+23:48:23.444991 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 264:332, ack 1, win 501, options [nop,nop,TS val 4201506976 ecr 1745697682], length 68
+5 packets captured
+24 packets received by filter
+0 packets dropped by kernel
+root@comp3134-Winter2025:~# 

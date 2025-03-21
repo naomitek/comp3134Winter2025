@@ -1,0 +1,95 @@
+root@comp3134-Winter2025:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:05:18.357073 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 2629116609:2629116717, ack 2684195129, win 501, options [nop,nop,TS val 4202521888 ecr 1746712628], length 108
+00:05:18.357136 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 4202521888 ecr 1746712628], length 36
+00:05:18.357176 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 144:196, ack 1, win 501, options [nop,nop,TS val 4202521888 ecr 1746712628], length 52
+00:05:18.357210 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 196:264, ack 1, win 501, options [nop,nop,TS val 4202521888 ecr 1746712628], length 68
+00:05:18.357301 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 264:332, ack 1, win 501, options [nop,nop,TS val 4202521888 ecr 1746712628], length 68
+00:05:18.357336 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 332:368, ack 1, win 501, options [nop,nop,TS val 4202521888 ecr 1746712628], length 36
+00:05:18.364826 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 0, win 2046, options [nop,nop,TS val 1746712646 ecr 4202521882], length 0
+00:05:18.375387 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 368, win 2042, options [nop,nop,TS val 1746712654 ecr 4202521888], length 0
+00:05:18.462364 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 368:628, ack 1, win 501, options [nop,nop,TS val 4202521993 ecr 1746712654], length 260
+00:05:18.462480 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 628:664, ack 1, win 501, options [nop,nop,TS val 4202521993 ecr 1746712654], length 36
+00:05:18.463028 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 664:900, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 236
+00:05:18.463091 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 900:936, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 36
+00:05:18.463182 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 936:1172, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 236
+00:05:18.463224 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 1172:1208, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 36
+00:05:18.463288 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 1208:1444, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 236
+00:05:18.463331 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 1444:1480, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 36
+00:05:18.463396 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 1480:1716, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 236
+00:05:18.463436 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 1716:1752, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 36
+00:05:18.463495 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 1752:1988, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 236
+00:05:18.463536 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 1988:2024, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 36
+00:05:18.463598 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 2024:2244, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 220
+00:05:18.463639 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 2244:2280, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 36
+00:05:18.463695 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 2280:2508, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 228
+00:05:18.463733 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 2508:2544, ack 1, win 501, options [nop,nop,TS val 4202521994 ecr 1746712654], length 36
+00:05:18.479484 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 2544, win 2014, options [nop,nop,TS val 1746712759 ecr 4202521994], length 0
+00:05:18.559155 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 2544:2780, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 236
+00:05:18.559303 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 2780:3052, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 272
+00:05:18.559361 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 3052:3088, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 36
+00:05:18.559423 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 3088:3324, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 236
+00:05:18.559462 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 3324:3360, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 36
+00:05:18.559519 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 3360:3596, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 236
+00:05:18.559558 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 3596:3632, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 36
+00:05:18.559617 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 3632:3868, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 236
+00:05:18.559656 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 3868:3904, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 36
+00:05:18.559714 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 3904:4140, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 236
+00:05:18.559751 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 4140:4176, ack 1, win 501, options [nop,nop,TS val 4202522090 ecr 1746712759], length 36
+00:05:18.559802 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 4176:4412, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 236
+00:05:18.559836 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 4412:4448, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 36
+00:05:18.559891 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 4448:4684, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 236
+00:05:18.559940 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 4684:4720, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 36
+00:05:18.559995 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 4720:4956, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 236
+00:05:18.560030 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 4956:4992, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 36
+00:05:18.560084 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 4992:5228, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 236
+00:05:18.560119 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 5228:5264, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 36
+00:05:18.560175 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 5264:5500, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 236
+00:05:18.560219 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 5500:5536, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 36
+00:05:18.560295 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 5536:5772, ack 1, win 501, options [nop,nop,TS val 4202522091 ecr 1746712759], length 236
+00:05:18.575843 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 3088, win 2039, options [nop,nop,TS val 1746712855 ecr 4202522090], length 0
+00:05:18.575844 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 5772, win 2048, options [nop,nop,TS val 1746712855 ecr 4202522091], length 0
+00:05:18.575925 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 5772:7160, ack 1, win 501, options [nop,nop,TS val 4202522107 ecr 1746712855], length 1388
+00:05:18.591033 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 7160, win 2026, options [nop,nop,TS val 1746712871 ecr 4202522107], length 0
+00:05:18.663383 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 7160:7396, ack 1, win 501, options [nop,nop,TS val 4202522194 ecr 1746712871], length 236
+00:05:18.663490 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 7396:7432, ack 1, win 501, options [nop,nop,TS val 4202522194 ecr 1746712871], length 36
+00:05:18.663534 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 7432:7668, ack 1, win 501, options [nop,nop,TS val 4202522194 ecr 1746712871], length 236
+00:05:18.663573 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 7668:7704, ack 1, win 501, options [nop,nop,TS val 4202522194 ecr 1746712871], length 36
+00:05:18.663631 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 7704:7940, ack 1, win 501, options [nop,nop,TS val 4202522194 ecr 1746712871], length 236
+00:05:18.663672 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 7940:7976, ack 1, win 501, options [nop,nop,TS val 4202522194 ecr 1746712871], length 36
+00:05:18.663799 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 7976:8212, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 236
+00:05:18.663836 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 8212:8248, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 36
+00:05:18.663889 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 8248:8484, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 236
+00:05:18.663992 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 8484:8520, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 36
+00:05:18.664057 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 8520:8756, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 236
+00:05:18.664123 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 8756:8792, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 36
+00:05:18.664193 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 8792:9028, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 236
+00:05:18.664253 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 9028:9064, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 36
+00:05:18.664327 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 9064:9300, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 236
+00:05:18.664382 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 9300:9336, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 36
+00:05:18.664452 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 9336:9572, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 236
+00:05:18.664510 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 9572:9608, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 36
+00:05:18.664603 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 9608:9844, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 236
+00:05:18.664700 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 9844:9880, ack 1, win 501, options [nop,nop,TS val 4202522195 ecr 1746712871], length 36
+00:05:18.664779 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 9880:10116, ack 1, win 501, options [nop,nop,TS val 4202522196 ecr 1746712871], length 236
+00:05:18.664837 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 10116:10152, ack 1, win 501, options [nop,nop,TS val 4202522196 ecr 1746712871], length 36
+00:05:18.664906 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 10152:10388, ack 1, win 501, options [nop,nop,TS val 4202522196 ecr 1746712871], length 236
+00:05:18.679947 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 10388, win 1997, options [nop,nop,TS val 1746712960 ecr 4202522196], length 0
+00:05:18.679948 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 10388, win 2048, options [nop,nop,TS val 1746712960 ecr 4202522196], length 0
+00:05:18.680084 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 10388:13284, ack 1, win 501, options [nop,nop,TS val 4202522211 ecr 1746712960], length 2896
+00:05:18.680156 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 13284:14216, ack 1, win 501, options [nop,nop,TS val 4202522211 ecr 1746712960], length 932
+00:05:18.695300 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 14216, win 2048, options [nop,nop,TS val 1746712975 ecr 4202522211], length 0
+00:05:18.767539 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 14216:17112, ack 1, win 501, options [nop,nop,TS val 4202522298 ecr 1746712975], length 2896
+00:05:18.767571 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 17112:18348, ack 1, win 501, options [nop,nop,TS val 4202522298 ecr 1746712975], length 1236
+00:05:18.767697 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 18348:19960, ack 1, win 501, options [nop,nop,TS val 4202522298 ecr 1746712975], length 1612
+00:05:18.786159 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 19960, win 2048, options [nop,nop,TS val 1746713064 ecr 4202522298], length 0
+00:05:18.871248 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 19960:20812, ack 1, win 501, options [nop,nop,TS val 4202522402 ecr 1746713064], length 852
+00:05:18.885339 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 20812, win 2034, options [nop,nop,TS val 1746713166 ecr 4202522402], length 0
+00:05:18.975115 IP comp3134-Winter2025.ssh > pool-99-238-178-200.cpe.net.cable.rogers.com.64092: Flags [P.], seq 20812:21248, ack 1, win 501, options [nop,nop,TS val 4202522506 ecr 1746713166], length 436
+00:05:19.000298 IP pool-99-238-178-200.cpe.net.cable.rogers.com.64092 > comp3134-Winter2025.ssh: Flags [.], ack 21248, win 2041, options [nop,nop,TS val 1746713270 ecr 4202522506], length 0
+^C
+87 packets captured
+91 packets received by filter
+0 packets dropped by kernel
+

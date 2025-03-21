@@ -1,0 +1,23 @@
+
+PING 165.227.39.182 (165.227.39.182): 56 data bytes
+64 bytes from 165.227.39.182: icmp_seq=0 ttl=55 time=141.616 ms
+64 bytes from 165.227.39.182: icmp_seq=1 ttl=55 time=14.716 ms
+64 bytes from 165.227.39.182: icmp_seq=2 ttl=55 time=21.880 ms
+64 bytes from 165.227.39.182: icmp_seq=3 ttl=55 time=15.154 ms
+64 bytes from 165.227.39.182: icmp_seq=4 ttl=55 time=23.427 ms
+64 bytes from 165.227.39.182: icmp_seq=5 ttl=55 time=24.763 ms
+64 bytes from 165.227.39.182: icmp_seq=6 ttl=55 time=20.050 ms
+64 bytes from 165.227.39.182: icmp_seq=7 ttl=55 time=23.310 ms
+64 bytes from 165.227.39.182: icmp_seq=8 ttl=55 time=24.187 ms
+64 bytes from 165.227.39.182: icmp_seq=9 ttl=55 time=22.326 ms
+64 bytes from 165.227.39.182: icmp_seq=10 ttl=55 time=15.432 ms
+64 bytes from 165.227.39.182: icmp_seq=11 ttl=55 time=39.923 ms
+64 bytes from 165.227.39.182: icmp_seq=12 ttl=55 time=27.258 ms
+64 bytes from 165.227.39.182: icmp_seq=13 ttl=55 time=14.577 ms
+64 bytes from 165.227.39.182: icmp_seq=14 ttl=55 time=23.658 ms
+
+--- 165.227.39.182 ping statistics ---
+15 packets transmitted, 15 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 14.577/30.152/141.616/30.420 ms
+
+
